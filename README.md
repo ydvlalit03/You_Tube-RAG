@@ -46,16 +46,6 @@ Automatically generates structured, easy-to-read notes and highlights the 5 most
 | UI Framework           | Streamlit                         |
 | Environment Management | dotenv                            |
 
-🧩 Folder Structure
-YouTube-RAG/
-│
-├── app.py                   # Streamlit UI
-├── main.py                  # Core RAG logic
-├── .env                     # API keys (Google + Hugging Face)
-├── requirements.txt          # Dependencies
-├── README.md                 # Project documentation
-└── vectorstore/              # (Optional) Saved Chroma DB
-
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/YouTube-RAG.git
