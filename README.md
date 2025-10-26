@@ -47,6 +47,7 @@ Automatically generates structured, easy-to-read notes and highlights the 5 most
 | Environment Management | dotenv                            |
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/YouTube-RAG.git
 cd YouTube-RAG
