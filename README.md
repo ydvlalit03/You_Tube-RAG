@@ -36,14 +36,16 @@ Uses Retrieval-Augmented Generation — fetches the most relevant transcript chu
 Automatically generates structured, easy-to-read notes and highlights the 5 most important topics from the video.
 
 🧠 Tech Stack
-Component	Library / API Used
-Language Model	Google Gemini (langchain_google_genai)
-Embeddings	Hugging Face (sentence-transformers/all-MiniLM-L6-v2)
-Vector Store	Chroma (langchain_chroma)
-Text Splitter	LangChain Text Splitters
-Transcript Fetching	YouTubeTranscriptApi
-Frontend	Streamlit
-Environment Management	python-dotenv
+| Component              | Technology                        |
+| ---------------------- | --------------------------------- |
+| LLM                    | Google Gemini 2.5 Flash Lite      |
+| Framework              | LangChain                         |
+| Embeddings             | Hugging Face (`all-MiniLM-L6-v2`) |
+| Vector DB              | Chroma                            |
+| Transcript API         | YouTubeTranscriptApi              |
+| UI Framework           | Streamlit                         |
+| Environment Management | dotenv                            |
+
 🧩 Folder Structure
 YouTube-RAG/
 │
